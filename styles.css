@@ -32,3 +32,28 @@ img {
 .contact {
   margin: 2rem;
 }
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #eee9da;
+    color: rgb(113, 57, 18);
+    margin: 1rem;
+  }
+
+  body p {
+    margin: 1.5rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 90vw;
+    margin: 2rem 0;
+  }
+}
